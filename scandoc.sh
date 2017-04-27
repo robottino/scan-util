@@ -23,4 +23,5 @@ echo "" | mail -s "emailing: ${PDFNAME}" ${EMAIL} -A ${PDFNAME}
 
 #clean temporary files
 rm "${tmp_img_name}"*"${tmp_img_ext}"
-
+rm ${PDFNAME}
+rm *.pnm
