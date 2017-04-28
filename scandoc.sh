@@ -2,6 +2,7 @@
 
 if [ "$#" -ne 3 ]; then
     echo "usage: scandoc.sh <pdf-name> <number-of-pages> <email-to-send-pdf>"
+    exit 1
 fi
 
 PDFNAME=$1
